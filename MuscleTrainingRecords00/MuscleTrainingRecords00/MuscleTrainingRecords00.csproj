@@ -83,6 +83,7 @@
       <DependentUpon>TraningLogPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="TraningLogPageCS.cs" />
+    <Compile Include="Debug.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">

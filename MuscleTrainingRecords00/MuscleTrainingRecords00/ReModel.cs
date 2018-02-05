@@ -48,7 +48,7 @@ namespace MuscleTrainingRecords00
                new Record
                {
                    M_no=0,
-                   M_name="データなし",
+                   M_name="データなし！",
                    M_weight=0,
                    M_leg=0,
                    M_set=0,
