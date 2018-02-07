@@ -109,7 +109,8 @@ namespace MuscleTrainingRecords00
                 {
 
                     //データベースに指定したSQLを発行
-                    return db.Query<RecordsModel>("SELECT [M_name] FROM [Records] WHERE [M_name] = '" + name + "'");
+                    List<RecordsModel> list = db.Query<RecordsModel>("SELECT [M_name] FROM [Records] WHERE [M_name] = '" + name + "'");
+                    return list;
                     // ORDER BY[M_date]
                 }
                 catch (Exception e)

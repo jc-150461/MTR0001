@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,8 +35,14 @@ namespace MuscleTrainingRecords00
         {
 
             //DisplayAlert("",""+RecordsModel.SelectRe(),"");
+<<<<<<< HEAD
             //ReModel.name = t;
             /*if ( RecordsModel.SelectName(t) != null)
+=======
+            ReModel.name = t;
+            List<RecordsModel> list = RecordsModel.SelectName(t);
+            if ((list != null) &&(list.Count != 0))
+>>>>>>> 1e83025... 登録されているメニューを複数登録できないようにした
             {
                 DisplayAlert("", "そのメニューはもう既に存在しています", "OK");
                 //RecordsModel.UpdateRe(t, date);
